@@ -1,0 +1,32 @@
+.conteudo {
+    padding: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+body {
+    width: 100%;
+    
+}
+article {
+    width: 100%;
+    
+}
+img {
+    padding: 10;
+    width: 100%;
+}
+
+.avatar {
+    width: 15%;
+}
+hr, h3{
+    width: 100%;
+    text-align: center;
+    margin: 5 0 5 0 ;
+}
+h1 {
+    text-align: center;
+}

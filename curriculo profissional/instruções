@@ -1,0 +1,22 @@
+Desenvolva uma página em HTML que represente o seu currículo profissional (não é necessário usar dados reais), este currículo deve conter a seguinte estrutura de elementos HTML, sem necessidade de estilizar:
+
+No cabeçalho do html, usar o título "Currículo Profissional".
+
+Já no corpo do HTML, deve conter:
+
+- Elemento de título contendo o texto "Currículo Profissional".
+- Elemento de imagem com a sua foto.
+- Elemento de sub título com o nome da profissão (Ex.: Desenvolvedor FrontEnd).
+- Elemento de linha para divisão das partes do currículo.
+- Elemento de subtítulo com nome da empresa em que trabalha ou trabalhou (Ex.: Empresa XYZ).
+- Elemento de parágrafo com a descrição dos papéis no trabalho.
+- Elemento de linha para divisão das partes do currículo.
+
+A entrega da atividade deve ser em forma de imagem, com print do código desenvolvimento
+
+Orientações:
+
+- Não são permitidas correções parciais no decorrer do módulo, pois a interpretação da atividade também faz parte da avaliação.
+- Atenção ao prazo de entrega da atividade. Sugerimos que envie sua atividade antes do prazo final para evitar transtornos e lentidão nos servidores. Evite o envio de atividade em cima do prazo!
+
+Boa atividade!
