@@ -19,6 +19,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 p {
     color: white;
@@ -55,6 +56,7 @@ header {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 2%;
+    height: 20%;
 }
 h1 {
     color: #16ecb0;
@@ -89,7 +91,7 @@ input {
     font-family: 'Press Start 2P', sans-serif;
 }
 
-main {
+.container {
     background-color: #7000f9ab;
     padding: 40px;
     margin: auto;
@@ -98,7 +100,10 @@ main {
     width: calc(100% - 40px); /* Ajusta a largura para evitar estouro */
     max-width: 400px;
     margin-bottom: 2%;
-    
+    }
+main {
+    width: auto;
+    height: auto;
 }
 
 form {
@@ -162,16 +167,20 @@ input[type="submit"] {
     line-height: 1.5; /* Altura da linha para melhor legibilidade */
 }
 
-
+        
 @media (max-width: 720px) {
     h1{
         display: none;
+    }
+    body {
+        min-height: 100vh; 
     }
     main {
         padding: 20px;
         margin: 0 auto;
         min-width: 320px;
-        max-width: 70%; 
+        max-width: 100%;
+        
         margin-bottom: 2%;
     }
     header {
@@ -196,3 +205,4 @@ input[type="submit"] {
     .logo-hide {
         display: block;
     }
+   
