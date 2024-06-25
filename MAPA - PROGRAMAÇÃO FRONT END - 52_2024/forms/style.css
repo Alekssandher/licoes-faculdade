@@ -19,7 +19,8 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    background-attachment: fixed;
+    
 }
 p {
     color: white;
@@ -168,7 +169,7 @@ input[type="submit"] {
 }
 
         
-@media (max-width: 1080px) {
+@media (max-width: 720px) {
     h1{
         display: none;
     }
