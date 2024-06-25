@@ -8,29 +8,32 @@
 
 body {
     font-family: 'Press Start 2P', sans-serif;
-    background-color: #f7f7f7;
+    background-color: #9b2b2b;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    min-height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
-    overflow-x: hidden; /* Remove a barra de rolagem horizontal */
+    background: url(../images/avat.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
+p {
+    color: white;
+}
 a {
     text-decoration: none;
     color: inherit;
     outline: none;
 }
-
+.ind{
+    background-color: #3c16d3b2;
+}
 .background::before {
     content: "";
-    background: url(../images/avat.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -54,7 +57,7 @@ header {
     margin-bottom: 2%;
 }
 h1 {
-    color: #F90386;
+    color: #16ecb0;
 }
 header > div > img {
     width: 5%;
@@ -86,7 +89,7 @@ input {
 }
 
 main {
-    background-color: #1e1e1e;
+    background-color: #7000f9ab;
     padding: 40px;
     margin: auto;
     border-radius: 10px;
@@ -94,7 +97,7 @@ main {
     width: calc(100% - 40px); /* Ajusta a largura para evitar estouro */
     max-width: 400px;
     margin-bottom: 2%;
-    flex: 1; /* Garante que o main expanda para preencher o espaço disponível */
+    
 }
 
 form {
@@ -121,53 +124,6 @@ input[type="password"] {
 }
 .send:hover {
     color:#0E0044 ;
-}
-footer {
-    width: 100%;
-    background-color: #1e1e1e;
-    color: white;
-    text-align: center;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    flex: 2;
-    
-
-}
-
-.footer {
-  
-    font-family: 'Press Start 2P', sans-serif;
-    text-align: center;
-}
-.row-top {
-    padding-top: 12%;
-}
-
- .footer .row {
-    width: 100%;
-    margin: 1% 0%;
-    padding: 0.6% 0%;
-    color: gray;
-    font-size: 0.8em;
-    
-}
-
-.footer .row a {
-    text-decoration: none;
-    color: gray;
-    transition: 0.5s;
-}
-
-.footer .row a:hover {
-    color: #fff;
-}
-
-.footer .row ul {
-    width: 100%;
-}
-
-.footer .row ul li {
-    display: inline-block;
-    
 }
 
 
@@ -239,19 +195,3 @@ input[type="submit"] {
     .logo-hide {
         display: block;
     }
-    .footer {
-        text-align: left;
-        padding: 5%;
-    }
-
-    .footer .row ul li {
-        display: block;
-        margin: 10px 0px;
-        text-align: left;
-    }
-
-    .footer .row a i {
-        margin: 0% 3%;
-    }
-
-    
