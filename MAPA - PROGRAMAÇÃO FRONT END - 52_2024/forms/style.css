@@ -75,6 +75,7 @@ header > div > img {
 header > nav > button {
     background-color: #F90386;
     font-family: 'Press Start 2P', sans-serif;
+    padding: 2px;
 }
 
 header > nav > button:hover {
